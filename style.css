@@ -1,0 +1,998 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+  overflow-x: hidden;
+}
+
+/* .one,
+.two,
+.three,
+.four,
+.five,
+.seven,
+.eight,
+.nine,
+.ten,
+.navigation {
+  padding: 10px 30px;
+} */
+
+.navigation{
+  margin: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section {
+  padding: 10px;
+}
+
+span {
+  color: #9070f6;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  color: #8d6cfa;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: black;
+}
+
+.menu a {
+  color: #16054e;
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.menu a:hover {
+  background: #8b82a7;
+  color: #fff;
+  padding-left: 1.5rem;
+}
+
+.menu {
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: all 0.3s linear;
+}
+
+.show-menu {
+  height: 10rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* nav ends */
+
+/* section-one  */
+.one {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.investing h1 {
+  color: #16054e;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.investing p {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #8b82a7;
+  font-size: 18px;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 15px 15px;
+  outline: none;
+  border: none;
+  background: #8d6cfa;
+  color: #fff;
+  border-radius: 50px;
+  margin-left: 10px;
+  font-weight: 600;
+  width: 50%;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.investing-img {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.investing-img img {
+  width: 100%;
+}
+
+/* section one ends */
+
+/* section-two */
+.two h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  color: #16054e;
+}
+
+.diversify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #9070f6;
+  padding: 10px 20px;
+  border-radius: 24px;
+  margin-top: 20px;
+}
+
+.assets {
+  text-align: center;
+  color: #fff;
+  margin: 30px 10px;
+}
+
+.assets h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.assets p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.assets-img img {
+  width: 100%;
+}
+
+/* section-two ends */
+
+/* sectiion-three */
+.portfolios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pre-built {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 24px;
+}
+
+.pre {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pre h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: #16054e;
+}
+
+.pre p {
+  color: #8b82a7;
+  font-weight: 300;
+  font-weight: 20px;
+  margin-top: 20px;
+}
+
+.pre-img {
+  position: relative;
+}
+
+.lady img {
+  width: 80%;
+
+}
+
+.chart img {
+  width: 100px;
+}
+
+.chart {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.social {
+  background: #4ecc4e;
+  padding: 10px 20px;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+
+.social-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-text h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.social-text p {
+  color: #fff;
+  font-weight: 300;
+  font-weight: 20px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.social-img {
+  position: relative;
+  margin-top: 50px;
+}
+
+.love {
+  position: absolute;
+  top: 30px;
+}
+
+.confetti {
+  position: absolute;
+  top: -50px;
+  left: 60px;
+}
+
+.fire {
+  position: absolute;
+  top: -10px;
+  right: 95px;
+}
+
+.thumbs {
+  position: absolute;
+  top: -40px;
+  right: 40px;
+}
+
+.cry {
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+
+.love img,
+.fire img,
+.thumbs img,
+.cry img {
+  width: 70%;
+}
+
+.confetti img {
+  width: 80%;
+}
+
+.ladies img {
+  width: 100%;
+}
+
+/* section -three ends */
+
+/* section -four */
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.companies img {
+  margin-bottom: 20px;
+}
+
+/* section-four ends */
+
+/* section- five */
+.five h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 30px;
+  color: #16054e;
+  margin-top: 30px;
+}
+
+.invest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.access,
+.reg,
+.diligent {
+  background: #fff;
+  padding: 50px 50px;
+  margin-bottom: 100px;
+  border-radius: 24px;
+  text-align: center;
+  position: relative;
+}
+
+.access h3,
+.reg h3,
+.diligent h3 {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #16054e;
+}
+
+.access p,
+.reg p,
+.diligent p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #8b82a7;
+}
+
+.access img,
+.reg img,
+.diligent img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+
+/* section-five ends */
+
+/* section-six */
+section.six {
+  background-image: url(./image/Vector.svg);
+  background-color: #060125;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.africa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tips {
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.tips h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.tips p {
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+a.waitlist {
+  padding: 15px 25px;
+  outline: none;
+  border: none;
+  background: #8d6cfa;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.tips-img img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* section six ends */
+
+/* section seven */
+.seven {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.seven h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #16054e;
+}
+
+.seven p {
+  color: #8b82a7;
+  font-weight: 200;
+  font-size: 18px;
+}
+.community {
+  margin-top: 50px;
+}
+
+.build {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.build-img img,
+.update-img img {
+  width: 100%;
+}
+
+.build-text,
+.update-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.updates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+/* section-seven ends */
+
+/* section-eight */
+section.eight {
+  margin-top: 50px;
+  background-image: url(./image/Vector.svg);
+  background: rgba(78, 204, 78, 0.03);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.eight h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  color: #16054e;
+}
+
+.eight span {
+  color: #4ecc4e;
+  font-weight: 600;
+}
+
+.hop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.tech,
+.growth {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tech img,
+.growth img {
+  width: 70%;
+}
+
+/* section-eight ends */
+
+/* section-nine */
+.ebook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.ebook-text {
+  text-align: center;
+}
+
+.ebook-text h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #16054e;
+}
+
+.ebook-text p {
+  margin-top: 20px;
+  color: #8b82a7;
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.ebook-text span {
+  font-weight: 600;
+}
+
+.ebook-img {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ebook-img img {
+  width: 80%;
+}
+
+/* section-nine ends */
+
+/* section 10 */
+.ten {
+  text-align: center;
+  background-image: url(./image/daba\ city\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+}
+
+.ten-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ten h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* section 10  ends*/
+
+/* section 11 */
+.eleven {
+  background: #060125;
+}
+
+.today {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 5px 10px;
+}
+
+.signup-text {
+  text-align: center;
+  color: #fff;
+}
+
+.signup-text h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.signup-text p {
+  font-weight: 200;
+  font-weight: 18px;
+  margin-top: 20px;
+}
+
+.signup-img {
+  margin-top: 40px;
+}
+
+.signup-img img {
+  width: 100%;
+}
+
+/* section 11 ends */
+
+footer {
+  background: #060125;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+/* media queries */
+
+@media (min-width: 800px) {
+
+  /* .container{
+    width: 95%;
+    background: red;
+    margin: auto;
+  } */
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .seven,
+  .eight,
+  .nine,
+  nav {
+    width: 90%;
+    /* background: red; */
+    margin: auto;
+  }
+
+
+  .navigation {
+    /* max-width: 1170px; */
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .logo {
+    padding: 0;
+  }
+  .logo .fa-bars {
+    display: none;
+  }
+
+  .menu {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: none;
+    box-shadow: none;
+    overflow: hidden;
+  }
+
+  .menu a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .menu a:hover {
+    padding: 0;
+    background: transparent;
+  }
+
+  ul li a.active {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background: #8d6cfa;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+
+  .one {
+    flex-direction: row;
+  }
+
+  .investing{
+    width: 45%;
+  }
+
+  .investing h1,
+  .investing p,
+  .investing form{
+    text-align: left;
+  }
+
+  .investing h1{
+    width: 280px;
+  }
+
+  .investing-img{
+    width: 45%;
+  }
+
+  .investing-img img{
+    width: 400px;
+  }
+
+  form input {
+    width: 50%;
+  }
+
+  form button {
+    width: 20%;
+  }
+
+  .diversify {
+    flex-direction: row;
+  }
+
+  .assets{
+    width: 45%;
+  }
+
+  .assets h2,
+  .assets p{
+    text-align: left;
+    width: 500px;
+  }
+
+  .assets-img{
+    width: 45%;
+    margin-right: 50px;
+  }
+
+  .portfolios {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pre-built,
+  .social {
+    width: 45%;
+    height: 80vh;
+  }
+
+  .pre,
+  .social-text{
+    text-align: justify;
+    width: 400px;
+  }
+
+  .pre-img img{
+    width: 350px;
+  }
+
+  .chart img{
+    width: 200px;
+  }
+
+  .love {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+  }
+  
+  .confetti {
+    position: absolute;
+    top: -20px;
+    left: 160px;
+  }
+  
+  .fire {
+    position: absolute;
+    top: 50px;
+    right: 270px;
+  }
+  
+  .thumbs {
+    position: absolute;
+    top: -40px;
+    right: 150px;
+  }
+  
+  .cry {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  .companies {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .invest {
+    flex-direction: row;
+  }
+
+  .access,
+  .reg,
+  .diligent {
+    width: 30%;
+    height: 40vh;
+  }
+
+  .africa {
+    flex-direction: row;
+  }
+
+  .tips{
+    width: 45%;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .tips h2{
+    width: 300px;
+  }
+
+  .tips p{
+    width: 450px;
+  }
+
+
+  .tips-img{
+    width: 45%;
+  }
+
+  .tips-img img{
+    width: 400px;
+  }
+
+  .build {
+    flex-direction: row;
+  }
+
+  .build-text{
+    width: 45%;
+    text-align: left;
+  }
+
+  .build-img{
+    width: 45%;
+  }
+
+  .updates {
+    flex-direction: row;
+  }
+
+  .update-text{
+    width: 45%;
+    text-align: left;
+  }
+
+  .update-img{
+    width: 45%;
+  }
+
+  .hop {
+    flex-direction: row;
+  }
+
+  .tech{
+    width: 45%;
+  }
+
+  .growth{
+    width: 45%;
+  }
+
+  .ebook {
+    flex-direction: row;
+  }
+
+  .ebook-text{
+    width: 45%;
+    text-align: left;
+  }
+
+  .ebook-img{
+    width: 45%;
+  }
+
+  .ebook-img img{
+    width: 400px;
+  }
+
+  .today {
+    flex-direction: row;
+  }
+
+  .signup-text{
+    width: 45%;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .signup-text form{
+    text-align: left;
+  }
+
+  .signup-img{
+    width: 45%;
+  }
+
+  .signup-img img{
+    width: 450px;
+  }
+
+  footer {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .socials img{
+    margin-left: 10px;
+  }
+
+  footer .logo{
+    margin-left: 50px;
+  }
+
+  footer .socials{
+    margin-right: 30px;
+  }
+}
+
+.box{
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show{
+  transform: translateX(0);
+}
